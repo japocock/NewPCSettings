@@ -1,0 +1,55 @@
+﻿Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+choco install adobereader
+choco install notepadplusplus.install
+choco install git.install
+choco install teamviewer
+choco install vlc
+choco install 7zip
+choco install winscp
+choco install firefox
+choco install googlechrome
+
+git clone https://github.com/japocock/Win10-Initial-Setup-Script.git
+
+DisableTelemetry
+EnableSmartScreen
+DisableWebSearch
+DisableAppSuggestions
+DisableLocation
+DisableAdvertisingID
+DisableCortana
+DisableErrorReporting
+SetP2PUpdateLocal
+DisableDiagTrack
+DisableSMB1
+EnableStorageSense
+EnableDefragmentation
+EnableNTFSLongPaths 
+EnableAutoRebootOnCrash
+HideTaskbarPeopleIcon
+ShowTrayIcons
+DisableSearchAppInStore
+SetControlPanelSmallIcons
+EnableStartupSound
+EnableVerboseStatus
+ShowExplorerTitleFullPath
+ShowKnownExtensions
+ShowHiddenFiles
+EnableNavPaneExpand
+ShowNavPaneAllFolders
+EnableFldrSeparateProcess
+SetExplorerThisPC
+ShowRecycleBinOnDesktop
+ShowBuildNumberOnDesktop
+ShowDesktopInThisPC
+ShowDownloadsInThisPC
+Hide3DObjectsFromExplorer
+UninstallMsftBloat
+UninstallThirdPartyBloat
+DisableXboxFeatures
+DisableIEFirstRun
+DisableFirstLogonAnimation
+UninstallPowerShellV2
+UninstallXPSPrinter
+UnpinStartMenuTiles
